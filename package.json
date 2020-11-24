@@ -1,0 +1,15 @@
+{
+  "name": "text-to-speech-converter",
+  "version": "1.0.0",
+  "description": "",
+  "main": "app.js",
+  "scripts": {
+    "dev": "nodemon app.js"
+  },
+  "author": "Mohit Talreja",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.17.1",
+    "say": "^0.16.0"
+  }
+}

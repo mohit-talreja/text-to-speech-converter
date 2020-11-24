@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Text To Speech Converter</title>
+        <style>
+            body{
+                font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+                font-weight: 595;
+            }
+            #speak{
+                border: none;
+                border-radius: 5px;
+                padding: 2px;
+                background-color: blue;
+                color: whitesmoke;
+            }
+        </style>
+    </head>
+    <body>
+        <form action="/msg" method="POST">
+            <h1>Text To Speech Converter</h1>
+            <table>
+                <tr>
+                    <td>Message:</td>
+                    <td><input type="text" name="msg" placeholder="drop a message here"></td>
+                </tr>
+            </table>
+            <button type="submit" name="speak" id="speak">speak</button>
+        </form>
+    </body>
+</html>
